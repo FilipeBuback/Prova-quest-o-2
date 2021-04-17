@@ -6,6 +6,12 @@ using namespace std;
 int main() {
  int cont1=1;
  int cont2=1;
+ int cont3=1;
+ int cont4=1;
+ int cont5=1;
+ int cont6=1;
+ int cont7=1;
+ int cont8=1;
 
  char vetor2[]={'a','b','c'};
  char vetor3[]={'d','e','f'};
@@ -31,11 +37,77 @@ int main() {
    cont1=cont1+1;
     }
     cont1=1;
+    for(int k=0; k<3; k++){
+      if(vetor3[k]==P[i]){
+      
+      cout << "#3=" << cont2<< endl;
+      break;
+
     }
-    
-    
- 
- 
+   cont2=cont2+1;
+    }
+    cont2=1;
+     for(int l=0; l<3; l++){
+      if(vetor4[l]==P[i]){
+      
+      cout << "#4=" << cont3<< endl;
+      break;
+
+    }
+   cont3=cont3+1;
+    }
+    cont3=1;
+     for(int m=0; m<3; m++){
+      if(vetor5[m]==P[i]){
+      
+      cout << "#5=" << cont4<< endl;
+      break;
+
+    }
+   cont4=cont4+1;
+    }
+    cont4=1;
+    for(int n=0; n<3; n++){
+      if(vetor6[n]==P[i]){
+      
+      cout << "#6=" << cont5<< endl;
+      break;
+
+    }
+   cont5=cont5+1;
+    }
+    cont5=1;
+    for(int o=0; o<4; o++){
+      if(vetor7[o]==P[i]){
+      
+      cout << "#7=" << cont6<< endl;
+      break;
+
+    }
+   cont6=cont6+1;
+    }
+    cont6=1;
+    for(int q=0; q<3; q++){
+      if(vetor8[q]==P[i]){
+      
+      cout << "#8=" << cont7<< endl;
+      break;
+
+    }
+   cont7=cont7+1;
+    }
+    cont7=1;
+    for(int u=0; u<4; u++){
+      if(vetor9[u]==P[i]){
+      
+      cout << "#9=" << cont8<< endl;
+      break;
+
+    }
+   cont8=cont8+1;
+    }
+    cont8=1;
+    }
  return 0;
 }
 

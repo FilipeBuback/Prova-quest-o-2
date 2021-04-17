@@ -25,12 +25,9 @@ int main() {
 
  cout << "Digite a entrada P com letras minusculas de no maximo 50 caracteres"<< endl;
  getline(cin,P);
- 
+ cout <<"Palavra digitada:"<< P << endl;
  if (P.length() < 49){
-
-  cout <<"Palavra digitada:"<< P << endl;
- 
- for (int i= 0; i < P.size();i++){
+   for (int i= 0; i < P.size();i++){
   for(int j=0; j<3; j++){
       if(vetor2[j]==P[i]){
       
@@ -114,6 +111,9 @@ int main() {
     }
  }else 
  cout << "Reinicie para digitar novamente. Palavra tem mais que 50 caracteres" << endl;
+
+
+ cout << "Aperte as teclas crtl+Enter para reiniciar"<< endl;
 
  return 0;
 }

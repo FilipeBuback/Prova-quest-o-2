@@ -29,26 +29,12 @@ int main() {
 
     }
    cont1=cont1+1;
-    
-    
-    
     }
-    for(int k=0; k<=2; k++){
-      if(vetor3[k]==P[i]){
-      cout << "#3=" << cont2<< endl;
-      
-      break;
-
-    }
-    cont2=cont2+1;
-    
-    
-    
-    
+    cont1=1;
     }
     
     
- }
+ 
  
  return 0;
 }

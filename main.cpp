@@ -22,9 +22,13 @@ int main() {
  char vetor8[]={'t','u','v'};
  char vetor9[]={'w','x','y','z'};
  string P;
- cout << "Digite a entrada P";
+
+ cout << "Digite a entrada P com letras minusculas de no maximo 50 caracteres"<< endl;
  getline(cin,P);
  
+ if (P.length() < 49){
+
+  cout <<"Palavra digitada:"<< P << endl;
  
  for (int i= 0; i < P.size();i++){
   for(int j=0; j<3; j++){
@@ -108,7 +112,8 @@ int main() {
     }
     cont8=1;
     }
+ }else 
+ cout << "Reinicie para digitar novamente. Palavra tem mais que 50 caracteres" << endl;
+
  return 0;
 }
-
-
